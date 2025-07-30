@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-This module provides a function to compute 
-the length of elements in a sequence.
+Module
 """
 
 
