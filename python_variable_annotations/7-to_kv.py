@@ -11,4 +11,4 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     Converts a key-value pair into a tuple where the value is squared.
     """
-    return(k, (v * v))
+    return (k, (v * v))
