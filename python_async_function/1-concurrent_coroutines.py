@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-1-concurrent_coroutines.py
+Module for concurrently waiting for random delays.
 """
 
 
