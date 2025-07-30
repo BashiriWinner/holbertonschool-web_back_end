@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-Module for concurrently waiting for random delays.
-"""
+Module for concurrently waiting for random delays."""
 
 
 from typing import List
