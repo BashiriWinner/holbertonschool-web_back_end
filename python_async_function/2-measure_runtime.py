@@ -5,7 +5,6 @@
 
 
 import asyncio
-from typing import list
 import time
 
 measure_time = __import__('2-measure_runtime').measure_time
