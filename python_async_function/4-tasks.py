@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-3-tasks.py
+4-tasks.py
 """
 
 
 import asyncio
 from typing import List
-wait_random = __import__('0-basic_async_syntax').wait_random
+task_wait_random = __import__('3-tasks').task_wait_random
 wait_n = __import__('1-concurrent_coroutines').wait_n
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
