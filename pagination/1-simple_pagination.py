@@ -46,12 +46,12 @@ class Server:
         based on page and page_size.
         
         Args:
-            page (int): Page number (1-indexed, default 1).
-            page_size (int): Number of items per page (default 10).
+        page (int): Page number (1-indexed, default 1).
+        page_size (int): Number of items per page (default 10).
         
         Returns:
-            List[List]: List of rows for the specified page, 
-            or empty list if out of range.
+        List[List]: List of rows for the specified page, 
+        or empty list if out of range.
         """
         assert isinstance(page, int) and page > 0
         assert isinstance(page_size, int) and page_size > 0
@@ -61,5 +61,5 @@ class Server:
 
         if start_index >= len(dataset):
             return []
-        
+
         return dataset[start_index:end_index]
