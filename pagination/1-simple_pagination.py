@@ -50,7 +50,7 @@ class Server:
         page_size (int): Number of items per page (default 10).
         
         Returns:
-        List[List]: List of rows for the specified page, 
+        List[List]: List of rows for the specified page,
         or empty list if out of range.
         """
         assert isinstance(page, int) and page > 0
