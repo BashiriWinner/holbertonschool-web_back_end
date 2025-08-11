@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-def index_range(page, page_size):
+def index_range(page, page_size) -> tuple:
     """Returns a tuple of start and end index for pagination."""
 
     start_index = (page - 1) * page_size
