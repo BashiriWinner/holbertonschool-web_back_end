@@ -18,7 +18,7 @@ def index_range(page: int, page_size: int) -> Tuple[int, int]:
     start_index = (page - 1) * page_size
     end_index = page * page_size
     return (start_index, end_index)
-    
+
 
 class Server:
     """Server class to paginate a database of popular baby names.
@@ -48,7 +48,8 @@ class Server:
             page_size (int): Number of items per page (default 10).
         
         Returns:
-            List[List]: List of rows for the specified page, or empty list if out of range.
+            List[List]: List of rows for the specified page, 
+            or empty list if out of range.
         """
         assert isinstance(page, int) and page > 0, "Page must be a positive integer"
         assert isinstance(page_size, int) and page_size > 0, "Page size must be a positive integer"
