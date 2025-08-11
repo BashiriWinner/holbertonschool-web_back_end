@@ -41,7 +41,8 @@ class Server:
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
         """
-        Returns the appropriate page of the dataset based on page and page_size.
+        Returns the appropriate page of the dataset 
+        based on page and page_size.
         
         Args:
             page (int): Page number (1-indexed, default 1).
@@ -51,8 +52,8 @@ class Server:
             List[List]: List of rows for the specified page, 
             or empty list if out of range.
         """
-        assert isinstance(page, int) and page > 0, "Page must be a positive integer"
-        assert isinstance(page_size, int) and page_size > 0, "Page size must be a positive integer"
+        assert isinstance(page, int) and page > 0, 
+        assert isinstance(page_size, int) and page_size > 0,
 
         dataset = self.dataset()
         start_index, end_index = index_range(page, page_size)
