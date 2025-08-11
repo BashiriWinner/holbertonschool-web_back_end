@@ -6,7 +6,7 @@ from typing import List, Tuple
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """
-    Returns a tuple of start and end indexes 
+    Returns a tuple of start and end indexes
     for given page and page_size.
     Args:
         page (int): Page number (1-indexed).
@@ -40,7 +40,7 @@ class Server:
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
         """
-        Returns the appropriate page of the dataset 
+        Returns the appropriate page of the dataset
         based on page and page_size.
         Args:
         page (int): Page number (1-indexed, default 1).
