@@ -44,11 +44,9 @@ class Server:
         """
         Returns the appropriate page of the dataset 
         based on page and page_size.
-        
         Args:
         page (int): Page number (1-indexed, default 1).
         page_size (int): Number of items per page (default 10).
-        
         Returns:
         List[List]: List of rows for the specified page,
         or empty list if out of range.
