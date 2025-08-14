@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 // To insert a new document in a collection
 
-import pymongo
+from pymongo import MongoClient
 
 
 def insert_school(mongo_collection, **kwargs):
