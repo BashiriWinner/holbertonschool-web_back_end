@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-// To insert a new document in a collection
+"""To insert a new document in a collection"""
 
 from pymongo import MongoClient
 
