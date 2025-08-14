@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from typing import List
-from async_generator import async_generator  # Əvvəlki tapşırıqdan idxal
+from async_generator import async_generator
 
 async def async_comprehension() -> List[float]:
 
