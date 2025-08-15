@@ -10,6 +10,7 @@ total_logs = collection.count_documents({})
 print(f"{total_logs} logs")
 
 methods = ["GET", "POST", "PUT", "PATCH", "DELETE"]
+"""Print the number of logs for each method."""
 print("Methods:")
 for method in methods:
     count = collection.count_documents({"method": method})
