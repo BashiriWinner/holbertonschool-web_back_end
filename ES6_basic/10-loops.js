@@ -1,8 +1,8 @@
 Oexport default function appendToEachArrayValue(array, appendString) {
     const newArray = [];
-    for (const value in array) {
+    for (const value of array) {
     newArray.push(appendString + value);
   }
 
-  return array;
+  return newArray;
 }
