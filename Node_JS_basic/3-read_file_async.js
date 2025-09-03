@@ -8,7 +8,7 @@ function countStudents(path) {
         return;
       }
       const lines = data.trim().split('\n');
-      const students = lines.slice(1).filter(line => line.trim() !== '');
+      const students = lines.slice(1).filter((line) => line.trim() !== '');
       const total = students.length;
       console.log(`Number of students: ${total}`);
       const fields = {};
